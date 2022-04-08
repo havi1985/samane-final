@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: yekan;
+    src: url("./Yekan.ttf");
+  }
+  
+  @font-face {
+    font-family: vazir;
+    src: url("./Vazir.ttf");
+  }
+  /* /////////main-page style///////// */
+  html {
+    direction: rtl;
+    font-size: 20px;
+    font-family: vazir;
+  }
+  .main-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ /* ////////header style///////// */
+
+  .main-page .header{
+    display: flex;
+    background-color:#00b4d8;
+    width: 96%;
+    height: 11vh;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+
+  }
+  .header .header-title {
+    font-family: yekan;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+
+  .header .header-btn {
+    border: none;
+    padding: 5 35;
+    background-color: #9bcbe2;
+    border-radius: 5px;
+    font-family: vazir;
+    display: none;
+  }
+
+
+
+  .header .header-link {
+    text-decoration: none;
+    padding: 00.5rem;
+    justify-self:end;
+    font-size: 0.9rem;
+    color:#023047;
+  }
+
+  /* ////////main style///////// */
+
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 89vh;
+  }
+  
+  .main-content .shomare-container {
+    height: 46.6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .main-content .shomare-container .main-input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background: #ebf0f7;
+    border-radius: 0 20px 20px 0 ;
+  }
+  
+  .main-content .shomare-container .sub {
+    border: none;
+    outline: none;
+    background-color:#00b4d8;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 2rem;
+    color: #023047
+    /* cursor: pointer; */
+    
+    
+  }
+
+  button,input {
+  font-family: vazir;
+}
+
+  .main-content .slogan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22.8%;
+    width: 100%;
+    
+  }
+  .main-content .slogan-container .main-txt{
+    font-size: 2rem;
+    font-family: yekan;
+    font-weight: bold;
+    color: #023047;
+
+
+  }
+
+  .main-content .slogan-container .main-txt1{
+    font-size: 1.3rem;
+    color: #023047;
+  }
+
+
+  .main-content .main-ravand{
+    height: 30.6%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content .main-ravand .ravand-sec{
+    display: flex;
+  }
+
+  .main-content .main-ravand .ravand{
+    font-size: 1.6rem;
+    font-family: yekan;
+    font-weight: bold;
+    color: #023047;
+  }
+
+
+  .main-content .main-ravand .ravand-prg{
+    background-color: #00b4d8;
+    color: #023047;
+    display:flex;
+    flex-direction:column;
+    padding:0.6rem;
+    margin:00.5rem;
+    margin-bottom:0rem;
+    border-radius:4px 4px 0 0 ;
+    align-items:center;
+    font-size: 0.8rem;
+  }
+
+
+  .main-content .main-ravand .ravand-prg p{
+    font-size: 1.2rem;
+  }
+
+
+/* ////////risponsive//////// */
+
+@media screen and (max-width:1070px){
+  .header .header-btn{
+    display: block;
+    margin: 2rem; 
+  }
+
+  .header .header-btn:focus + .header-nav{
+    right: 0;
+  }
+  .header .header-nav{
+    position: absolute;
+    background-color: #fff;
+    top:0;
+    right: -100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    transition: all 0.5s;
+    
+  }
+  
+}
+@media screen and (max-width:700px) {
+  .header .header-title{
+    font-size: 1.5rem;
+  }
+  .header .header-btn{
+    margin: 1rem;
+  }
+  .main-content .slogan-container .main-txt{
+    font-size: 1.4rem;
+    
+  }
+  .main-content .slogan-container .main-txt1{
+    font-size: 0.9rem;
+  }
+.main-content .main-ravand .ravand{
+  font-size: 1.3rem;
+}
+
+}
+
+
+@media screen and (max-width:492px) {
+  .header .header-title{
+    font-size: 1rem;
+  }
+  .header .header-btn{
+    margin: 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .main-content .slogan-container .main-txt{
+    font-size: 1rem;
+
+  }
+
+  .main-content .slogan-container .main-txt1{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+  }
+.main-content .main-ravand .ravand{
+  font-size: 1rem;
+
+}
+
+  .main-content .shomare-container{
+    flex-direction: column;
+
+  }
+
+  .main-content .shomare-container .sub{
+    border-radius: 0 0 15px 15px ;
+    padding: 0.2rem 3rem;
+    font-size: 00.6rem;
+
+
+
+  }
+  .main-content .shomare-container .main-input{
+    border-radius: 15px 15px 0 0 ;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.6rem;
+
+
+  }
+  
+  .main-content .main-ravand .ravand-sec{
+    flex-direction: column;
+  
+  }
+  .main-content .main-ravand .ravand-prg p{
+
+    font-size: 00.9rem;
+  }
+
+
+  .main-content .main-ravand .ravand-sec .ravand-prg{
+    font-size: 00.65rem;
+    margin: 5px 20px;
+  }
+
+
+
+
+}
+ 
+@media screen and (max-width:350px) {
+
+  .main-content .slogan-container .main-txt1{
+    font-size: 00.6rem;
+    font-weight: bold;
+  
+  }
+
+
+  
+}
