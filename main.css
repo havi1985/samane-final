@@ -78,15 +78,15 @@
   
   .main-content .shomare-container {
     height: 46.6%;
-    width: 55%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  
 
   }
 
   .main-content .shomare-container .main-input {
+    /* width: 100%; */
     border: none;
     outline: none;
     padding: 0.5rem 1rem;
@@ -101,6 +101,7 @@
     background-color:#00b4d8;
     border-radius: 20px 0 0 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    /* display: block; */
     padding: 0.5rem 2rem;
     color: #023047
     /* cursor: pointer; */
@@ -195,6 +196,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     height: 100vh;
     transition: all 0.5s;
+    z-index: 5;
     
   }
   
@@ -251,10 +253,8 @@
 
   .main-content .shomare-container .sub{
     border-radius: 0 0 15px 15px ;
-    padding: 0.2rem 3rem;
+    padding: 0.2rem 2.5rem;
     font-size: 00.6rem;
-    position: relative;
-    width: 100%;
 
 
 
@@ -263,8 +263,6 @@
     border-radius: 15px 15px 0 0 ;
     padding: 0.2rem 0.7rem;
     font-size: 0.6rem;
-    position: relative;
-    width: 100%;
 
 
   }
