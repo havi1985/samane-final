@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10vh 0 10vh 0;
+    margin: 10vh 0 15vh 0;
 
   }
 
@@ -115,7 +115,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 5vh 0 5vh 0 ;
+    margin: 10vh 0 5vh 0 ;
     
   }
   .main-content .slogan-container .main-txt{
@@ -138,6 +138,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid blacks;
   
   }
   .main-content .main-ravand .ravand-sec{
