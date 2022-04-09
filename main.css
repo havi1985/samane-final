@@ -304,3 +304,53 @@
 
   
 }
+@media screen and (max-height:420px) {
+  .header .header-title{
+    font-size: 1.2rem;
+  }
+  .header .header-btn{
+    padding: 2 35 ;
+  }
+  .main-content .shomare-container .main-input{
+   font-size: 00.6rem;
+   padding: 0.2rem 0.7rem;
+
+
+
+  }
+
+
+    .main-content .shomare-container .sub{
+      font-size: 00.6rem;
+      padding: 00.2rem 2rem;
+
+
+    }
+    .main-content .slogan-container .main-txt{
+      font-size: 1.4rem;
+
+    }
+     
+    .main-content .slogan-container .main-txt1{
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .main-content .main-ravand .ravand{
+      font-size: 1.4rem;
+    }
+
+
+    .main-content .main-ravand .ravand-sec .ravand-prg{
+      font-size: 00.6rem;
+    }
+
+    .main-content .main-ravand .ravand-prg p{
+      font-size: 00.8rem;
+    }
+
+
+
+
+  
+}
