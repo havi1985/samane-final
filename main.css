@@ -77,11 +77,11 @@
   }
   
   .main-content .shomare-container {
-    height: 46.6%;
     width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh 0 10vh 0;
 
   }
 
@@ -99,7 +99,7 @@
     outline: none;
     background-color:#00b4d8;
     border-radius: 20px 0 0 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     padding: 0.5rem 2rem;
     color: #023047;
     
@@ -114,8 +114,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 22.8%;
     width: 100%;
+    margin: 10vh 0 10vh 0 ;
     
   }
   .main-content .slogan-container .main-txt{
@@ -134,11 +134,11 @@
 
 
   .main-content .main-ravand{
-    height: 30.6%;
     width: 96%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  
   }
   .main-content .main-ravand .ravand-sec{
     display: flex;
@@ -195,6 +195,10 @@
     transition: all 0.5s;
     z-index: 5;
     
+  }
+  .header .header-nav .header-link{
+    border-bottom: 1px solid #023047;
+    border-radius: 0 0 0 7px;
   }
   
 }
